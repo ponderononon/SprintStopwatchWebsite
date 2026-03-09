@@ -257,7 +257,7 @@ body {
 }
 
 .thesis-title {
-    display: inline-block;
+    display: block;
     margin-left: 1rem;
     margin-bottom: 1rem;
 }
