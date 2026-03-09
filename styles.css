@@ -248,6 +248,25 @@ body {
     padding: var(--cp);
 }
 
+.mustafa-content {
+    padding: var(--cp);
+}
+
+.mustafa-content p {
+    max-width: 900px;
+}
+
+.thesis-title {
+    display: inline-block;
+    margin-bottom: 0.45rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .me-content {
+        color: rgba(255, 255, 255, 0.88);
+    }
+}
+
 h1 {
     font-size: var(--cp);
     margin-top: var(--textpadding);
