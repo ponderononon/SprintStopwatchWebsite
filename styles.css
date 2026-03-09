@@ -298,7 +298,7 @@ h4 + .cv-entry {
 }
 
 p + h4 {
-    margin-top: var(--fs-500);
+    margin-top: var(--cp);
 }
 
 .job-title {
