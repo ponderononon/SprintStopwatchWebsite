@@ -256,6 +256,11 @@ body {
     max-width: 900px;
 }
 
+.mustafa-content a {
+    color: inherit;
+    text-decoration: underline;
+}
+
 .thesis-title {
     display: block;
     margin-top: 0.2rem;
