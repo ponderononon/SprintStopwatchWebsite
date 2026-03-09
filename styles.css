@@ -275,7 +275,12 @@ body {
 }
 
 .cv-entry {
+    margin-left: 0.8rem;
     margin-bottom: 1.4rem;
+}
+
+h5 + .cv-entry {
+    margin-top: 1rem;
 }
 
 .job-title {
