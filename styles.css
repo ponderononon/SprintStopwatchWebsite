@@ -354,8 +354,9 @@ h3 {
 
 h4 {
     font-size: var(--fs-400);
-    margin-top: var(--textpadding);
+    margin-top: var(--text);
     margin-bottom: var(--textpadding);
+    font-weight: 600;
 }
 
 h5 {
