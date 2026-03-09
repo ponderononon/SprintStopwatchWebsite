@@ -293,12 +293,12 @@ body {
     margin-bottom: var(--cv-entry-spacing);
 }
 
-h5 + .cv-entry {
+h4 + .cv-entry {
     margin-top: var(--company-size);
 }
 
 p + h4 {
-    margin-top: var(--company-size);
+    margin-top: var(--fs-500);
 }
 
 .job-title {
