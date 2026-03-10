@@ -1,5 +1,5 @@
 :root {
-    --fs-600: 3.2rem;
+    --fs-600: 3.1rem;
     --fs-500: 2.4rem;
     --fs-400: 1.9rem;
     --textpadding: 1.2rem;
@@ -27,7 +27,7 @@
 
 @media (max-width: /*722*/450px) {
     :root {
-        --fs-600: 2.9rem;
+        --fs-600: 2.5rem;
         --fs-500: 1.33rem;
         --fs-400: 1.32rem;
         --fs-footer: 0.95rem;
@@ -48,7 +48,7 @@
 }
 @media (max-width: /*722*/380px) {
     :root {
-        --fs-600: 2.9rem;
+        --fs-600: 2.0rem;
         --fs-500: 1.28rem;
         --fs-400: 1.12rem;
         --fs-footer: 0.9rem;
@@ -301,6 +301,10 @@ p + h4 {
     margin-top: var(--cp);
 }
 
+.cv-entry + h4 {
+    margin-top: var(--cp);
+}
+
 .job-title {
     font-size: var(--job-title-size);
     font-weight: 500;
@@ -311,6 +315,7 @@ p + h4 {
     font-size: var(--company-size);
     font-weight: 430;
     line-height: 1.4;
+     color: rgba(255, 255, 255, 0.85);
     margin-top: 0.1rem;
 }
 
@@ -320,6 +325,12 @@ p + h4 {
     line-height: 1.4;
     color: rgba(255, 255, 255, 0.6);
     margin-top: 0.1rem;
+}
+
+@media (prefers-color-scheme: light) {
+    .company {
+        color: rgba(0, 0, 0, 0.15);
+    }
 }
 
 @media (prefers-color-scheme: light) {
