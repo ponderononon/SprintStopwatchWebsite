@@ -322,6 +322,12 @@ p + h4 {
     margin-top: 0.1rem;
 }
 
+@media (prefers-color-scheme: light) {
+    .date-range {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
 @media (max-width: 450px) {
     :root {
         --job-title-size: 1.15rem;
@@ -424,7 +430,7 @@ li {
     font-weight: 200;
     font-style: Extra Light;
 }
-
+/*
 .gradientContainer {
     height: 100%;
     width: 100%;
@@ -438,7 +444,7 @@ li {
     overflow: hidden;
     z-index: -1;
     backface-visibility: hidden; /* Helps reduce lag in Safari */
-    -webkit-backface-visibility: hidden;
+   /* -webkit-backface-visibility: hidden;
     will-change: transform;
     transform: translateZ(0);
 }
@@ -549,7 +555,7 @@ li {
     }
     .gradientContainer div:nth-child(10) {
         background-color: #218bff; /*499dfc*/
-    }
+ /*   }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -584,3 +590,4 @@ li {
         background-color: #0b017d;
     }
 }
+*/
