@@ -302,7 +302,7 @@ p + h4 {
 }
 
 .cv-entry + h4 {
-    margin-top: 7.0rem;
+    margin-top: var(--cp);
 }
 
 .job-title {
