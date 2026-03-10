@@ -27,7 +27,7 @@
 
 @media (max-width: /*722*/450px) {
     :root {
-        --fs-600: 2.5rem;
+        --fs-600: 2.4rem;
         --fs-500: 1.33rem;
         --fs-400: 1.32rem;
         --fs-footer: 0.95rem;
@@ -48,7 +48,7 @@
 }
 @media (max-width: /*722*/380px) {
     :root {
-        --fs-600: 2.0rem;
+        --fs-600: 1.9rem;
         --fs-500: 1.28rem;
         --fs-400: 1.12rem;
         --fs-footer: 0.9rem;
@@ -302,7 +302,7 @@ p + h4 {
 }
 
 .cv-entry + h4 {
-    margin-top: var(--cp);
+    margin-top: 7.0rem;
 }
 
 .job-title {
