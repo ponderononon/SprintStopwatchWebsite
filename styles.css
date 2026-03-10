@@ -329,7 +329,7 @@ p + h4 {
 
 @media (prefers-color-scheme: light) {
     .company {
-        color: rgba(0, 0, 0, 0.15);
+        color: rgba(0, 0, 0, 0.85);
     }
 }
 
